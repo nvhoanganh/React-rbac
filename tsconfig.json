@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+		"target": "es5",
+		"lib": ["esnext"],
+		"experimentalDecorators": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"jsx": "react",
+		"downlevelIteration": true
+	},
+	"include": ["./**.ts"],
+	"exclude": []
+}

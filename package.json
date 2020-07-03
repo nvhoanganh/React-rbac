@@ -1,0 +1,31 @@
+{
+  "name": "react-role-based-access-control",
+  "version": "1.0.0",
+  "description": "React Role Based Access control",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvhoanganh/RoleBasedAccessControlOnUI.git"
+  },
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "rbac"
+  ],
+  "author": "Anthony Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvhoanganh/RoleBasedAccessControlOnUI/issues"
+  },
+  "homepage": "https://github.com/nvhoanganh/RoleBasedAccessControlOnUI#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
